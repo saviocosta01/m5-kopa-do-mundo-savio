@@ -3,7 +3,6 @@ from datetime import datetime
 
 
 def data_processing(info):
-
     date_string = info["first_cup"]
     date_object = datetime.strptime(date_string, "%Y-%m-%d")
     year = date_object.year
