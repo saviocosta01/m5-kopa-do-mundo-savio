@@ -23,12 +23,3 @@ def data_processing(info):
 
     if info["titles"] > amounts_of_hearts:
         raise ImpossibleTitlesError("impossible to have more titles than disputed cups")
-
-
-data = {
-    "name": "França",
-    "titles": 9,
-    "top_scorer": "Zidane",
-    "fifa_code": "FRA",
-    "first_cup": "2002-10-18",
-}
